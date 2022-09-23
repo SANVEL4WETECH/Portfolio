@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins', sans-serif ;
+    
+}
+
+
+#home{
+   margin-top: 100px;
+    height: calc( 100vh - 100px);
+   justify-content: center;
+   align-items: center;
+
+   
+   
+}
+
+
+/*-------navbar-------*/
+
+
+.bold{
+    font-size: 25px;
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+
+/*-------Home-------*/
+
+span{
+    color: blue;
+    font-weight: 500;
+ 
+}
+
+p{
+    font-size: 17px;
+}
+
+
+/*--------about-------*/
+
+.about-img{
+    margin-top: 50px;
+    width: 103%;
+}
+
+
+li {
+    font-weight: bold;
+}
+
+.about-heading{
+    color: blue;
+
+}
+
+
+
+@media only screen and (max-width: 525px){
+
+    #about{
+        margin-top: 100px;
+    }
+    
+
+}
+
+
+/*--------skills-------*/
+
+#skills{
+    margin-top: 30px;
+    
+    
+    }
+
+
+.skill-heading{
+    text-align: center;
+    color: blue;
+}
+
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/*--------certifications-------*/
+
+.certi{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.certi-card{
+    color: white;
+    background-color: grey;
+   
+}
+
+.certi-heading{
+    color: blue;
+}
+
+.udemy-img{
+    width: 50%;
+}
+
+
+
+/*--------project-------*/
+
+
+.my-project{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.project-heading{
+    color: blue;
+}
+
+.project-subtitle{
+    color:  #66BFBF;
+}
+
+
+
+/*--------contact-------*/
+
+
+form{
+    padding: 27px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+             -1px -1px 5px rgba(0,0,0,.05); 
+
+             border-radius: 30px;
+             margin-bottom: 20px;
+            
+}
+
+
+.contact-heading{
+    color: blue;
+}
+
+.san-details{
+    text-align: center;
+}
+
+.footer-h2{
+    color: #66BFBF;
+}
+
+.footer-h3{
+    color: #CCD6A6;
+}
+
+.important{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-link{
+    color: black;
+     text-decoration: none;
+}
+
+.footer-link:hover{
+    color: red;
+}
+
+.top-space{
+    margin-top: 150px;
+}
+
+.copy-right{
+    margin-top: 20px;
+   text-align: center;
+}
